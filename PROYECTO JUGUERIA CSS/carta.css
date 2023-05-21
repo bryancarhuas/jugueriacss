@@ -1,0 +1,17 @@
+body{
+    background-image: url("/imgjugueria/puede\ ser.jpg");
+    background-repeat: no-repeat;
+  /* background-position: 50px 25px; */
+   /* background-position: 20% 10%;*/
+   /* background-position: left top;*/
+  /* background-position: left center;*/
+  background-position: center center;
+  height: 180px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.imagen {
+
+    width: 350px;
+}
+

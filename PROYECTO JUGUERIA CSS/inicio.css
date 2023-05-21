@@ -1,0 +1,104 @@
+/*inicio*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    padding: 40px;
+    background-color: black;
+    color:yellow;
+    border-radius: 30px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 750px;
+    
+}
+body{
+    font-family: sans-serif;
+    margin: 0 ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+.categorias a:hover{
+    color: white;
+    
+    
+}
+
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo img{
+    height: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman';
+}
+h2{
+    font-family: helvetica;
+}
+
+.servicioss{
+    
+    width: 500px;
+    height: 300px;
+    margin: 0 5px;
+    border: 5px solid black;
+}
+.imgservicios{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgservicios p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.vidasana{
+    width: 200px;
+}
+.redessociales{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+

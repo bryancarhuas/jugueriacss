@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte</title>
+    <link rel="stylesheet" href="contactanos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="contact-title">Contactanos</h1>
+        <div class="ticket">
+            <a href="ticket"><h5>Te mandaremos un ticket de soporte personalizado a tu persona.</h5></a>
+        </div>
+    </div>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" placeholder="Apellidos" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="Teléfono" minlength="9" required>
+
+        <label for="locales">Locales</label>
+        <select id="locales">
+            <option value="cercado">Cercado De Lima</option>
+            <option value="sanmartin">San Martin de Porres</option>
+            <option value="barrios">Barrios Altos</option>
+            <option value="independencia">Independencia</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Mensaje" rows="4"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 60px;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.ticket {
+    margin-top: 10px;
+}
+
+.ticket a {
+    text-decoration: none;
+}
+
+.ticket h5 {
+    font-size: 20px;
+    color: #333333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.support-section {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipOtlZf23T4p6x9oz1jR3f1ULNwkD2DmLwN9qeja=w1080-h608-p-no-v0");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
